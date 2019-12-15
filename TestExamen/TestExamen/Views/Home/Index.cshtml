@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<div class="container">
+    <div class="row">&nbsp;</div>
+    <div class="row">
+        <div class="col-12" style="margin: 0px 20px;">
+            <label for="messageInput">Message:</label>
+            <input type="text" id="messageInput" />
+            <input type="button" id="sendButton" value="Send Message" class="btn btn-primary" />
+        </div>
+    </div>
+</div>
+<div>
+    <ul id="messagesList"></ul>
+</div>
+<hr />
+<div>
+    <form>
+        <!-- beeld opladen -->
+        <div class="row" style="margin: 20px 0px;">
+            <div>
+                <label for="selectImg" style="float:left; margin-right:10px;">Select your image(s): </label>
+                <input type="file" id="selectImg" name="selectImg" multiple title="Select your image(s)" />
+            </div>
+        </div>
+    </form>
+</div>
+
+<script src="lib/aspnet-signalr/signalr.js"></script>
+<script src="/js/chat.js"></script>
