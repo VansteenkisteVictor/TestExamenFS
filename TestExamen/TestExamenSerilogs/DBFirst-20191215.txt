@@ -1,0 +1,12 @@
+2019-12-15 15:27:18.911 +01:00 [Information] Serilog is geïnitialiseerd
+2019-12-15 15:27:18.974 +01:00 [Warning] Serilog Warning test
+2019-12-15 15:36:42.138 +01:00 [Information] Serilog is geïnitialiseerd
+2019-12-15 15:36:42.189 +01:00 [Warning] Serilog Warning test
+2019-12-15 15:39:52.191 +01:00 [Information] Serilog is geïnitialiseerd
+2019-12-15 15:39:52.222 +01:00 [Warning] Serilog Warning test
+2019-12-15 15:44:47.834 +01:00 [Information] Serilog is geïnitialiseerd
+2019-12-15 15:44:47.886 +01:00 [Warning] Serilog Warning test
+2019-12-15 15:45:45.310 +01:00 [Information] Serilog is geïnitialiseerd
+2019-12-15 15:45:45.348 +01:00 [Warning] Serilog Warning test
+2019-12-15 15:47:11.920 +01:00 [Information] Serilog is geïnitialiseerd
+2019-12-15 15:47:11.966 +01:00 [Warning] Serilog Warning test

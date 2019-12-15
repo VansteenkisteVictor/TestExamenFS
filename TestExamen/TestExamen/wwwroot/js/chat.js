@@ -58,7 +58,6 @@ realtime.hub = (() => {
         connection.invoke("Login", realtime.hub.username);
     });
 
-
     //4. opstarten van HTML en javascript handlers
     let start = document.addEventListener("DOMContentLoaded", (event) => {
         console.log("DOM fully loaded and parsed");
@@ -84,6 +83,8 @@ realtime.hub = (() => {
                 });
         });
 
+
+
         //image event
         if (!!document.getElementById("submitUploadButton") === false) {
 
@@ -93,7 +94,7 @@ realtime.hub = (() => {
                     let reader = new FileReader();
                     reader.onloadend = (evt) => {
                         let result = reader.result;
-                        fetch(remoteHost + "/api/fileupload/uploadfilebyJS",
+                        fetch("/api/FileUpload/UploadFileByJS",
                             {
                                 method: "POST",
                                 body: JSON.stringify({ "formFile": result, "fileName": file.name }),//wordt base64
@@ -109,6 +110,8 @@ realtime.hub = (() => {
 
         }
     };
+
+
 
 
     //5. publieke elementen returnen (module pattern)
